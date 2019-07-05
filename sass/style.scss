@@ -1,0 +1,17 @@
+
+*{
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.yk{
+
+  &__header {
+    box-shadow: 0 0px 8.5px 5px rgba(0, 0, 0, 0.05);
+    margin-left: 240px;
+  }
+
+  &__sidebar-icon{
+    font-size: 16px;
+  }
+
+}
