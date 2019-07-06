@@ -44,237 +44,526 @@
 
     <!-- Sidebar -->
 		<div class="sidebar pt-1">
-        <div class="sidebar-background"></div>
-        <div class="sidebar-wrapper scrollbar-inner">
-          <div class="sidebar-content">
-            <div class="user">
-              <div class="avatar-sm float-left mr-2">
-                <img src="assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
+      <div class="sidebar-background"></div>
+      <div class="sidebar-wrapper scrollbar-inner">
+        <div class="sidebar-content">
+          <div class="user">
+            <div class="avatar-sm float-left mr-2">
+              <img src="assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
+            </div>
+            <div class="info">
+              <a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
+                <span>
+                  Hizrian
+                  <span class="user-level">Administrator</span>
+                  <span class="caret"></span>
+                </span>
+              </a>
+              <div class="clearfix"></div>
+
+              <div class="collapse in" id="collapseExample">
+                <ul class="nav">
+                  <li>
+                    <a href="#profile">
+                      <span class="link-collapse">個人設定</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#edit">
+                      <span class="link-collapse">登出</span>
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <div class="info">
-                <a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
-                  <span>
-                    Hizrian
-                    <span class="user-level">Administrator</span>
-                    <span class="caret"></span>
-                  </span>
-                </a>
-                <div class="clearfix"></div>
-  
-                <div class="collapse in" id="collapseExample">
-                  <ul class="nav">
-                    <li>
-                      <a href="#profile">
-                        <span class="link-collapse">個人設定</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#edit">
-                        <span class="link-collapse">登出</span>
-                      </a>
-                    </li>
-                  </ul>
+            </div>
+          </div>
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="#">
+                  <i class="la yk__sidebar-icon flaticon-home"></i>
+                <p>首頁</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a data-toggle="collapse" href="#projects">
+                <i class="la yk__sidebar-icon flaticon-calendar"></i>
+                <p>專案管理</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="projects">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">總覽</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">歷史專案</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a data-toggle="collapse" href="#customer">
+                <i class="la yk__sidebar-icon flaticon-profile"></i>
+                <p>客戶管理</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="customer">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">總覽</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">藝術家</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">分類管理</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">統計分析</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a data-toggle="collapse" href="#inventory">
+                <i class="la yk__sidebar-icon flaticon-box"></i>
+                <p>庫存管理</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="inventory">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">總覽</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">其他庫存</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">作品形式管理</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">作品媒材管理</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">統計分析</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a data-toggle="collapse" href="#accountant">
+                <i class="la yk__sidebar-icon flaticon-technology"></i>
+                <p>會計管理</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="accountant">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">總覽(支出／收入)</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">訂購單</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">統計分析</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <i class="la yk__sidebar-icon flaticon-laptop"></i>
+                <p>客戶預覽</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <i class="la yk__sidebar-icon flaticon-graph"></i>
+                <p>統計分析</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a data-toggle="collapse" href="#resource">
+                <i class="la yk__sidebar-icon flaticon-idea"></i>
+                <p>公共資源</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="resource">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">總覽</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">藝博會</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">獎補助</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">合約小幫手</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a data-toggle="collapse" href="#settings">
+                <i class="la yk__sidebar-icon flaticon-settings"></i>
+                <p>設定</p>
+                <span class="caret"></span>
+              </a>
+              <div class="collapse" id="settings">
+                <ul class="nav nav-collapse">
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">帳號設定</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="sub-item">系統設定</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <i class="la yk__sidebar-icon flaticon-round"></i>
+                <p>幫助</p>
+              </a>
+            </li> 
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Sidebar -->
+
+    <!-- Start Datatable -->
+    <div class="main-panel">
+      <div class="content mt-0">
+        <div class="page-inner">
+          <div class="page-header">
+            <h5 class="page-title">客戶管理｜總覽</h5>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table id="basic-datatables" class="display table" >
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>姓名</th>
+                          <th>藏家級別</th>
+                          <th>電話</th>
+                          <th>E-mail</th>
+                          <th>分類</th>
+                          <th>所在地</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="d-flex justify-content-between">
+                            <span><input type="checkbox" for="multi_operate"></span>
+                            <span class="icon-preview"><i class="la flaticon-user"></i></span>
+                          </td>
+                          <td>張人十</td>
+                          <td>－</td>
+                          <td>0912-345-678</td>
+                          <td>1243@gmail.com</td>
+                          <td>藏家</td>
+                          <td>中國，四川</td>
+                          <td class="text-right">
+                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
+                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="d-flex justify-content-between">
+                            <span><input type="checkbox" for="multi_operate"></span>
+                            <span class="icon-preview"><i class="la flaticon-user"></i></span>
+                          </td>
+                          <td>張人十</td>
+                          <td>VVIP</td>
+                          <td>0912-345-678</td>
+                          <td>1243@gmail.com</td>
+                          <td>藝評、策展人</td>
+                          <td>中國，四川</td>
+                          <td class="text-right">
+                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
+                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="d-flex justify-content-between">
+                            <span><input type="checkbox" for="multi_operate"></span>
+                            <span class="icon-preview"><i class="la flaticon-user"></i></span>
+                          </td>
+                          <td>張人十</td>
+                          <td>－</td>
+                          <td>0912-345-678</td>
+                          <td>1243@gmail.com</td>
+                          <td>藝術家</td>
+                          <td>中國，四川</td>
+                          <td class="text-right">
+                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
+                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="d-flex justify-content-between">
+                            <span><input type="checkbox" for="multi_operate"></span>
+                            <span class="icon-preview"><i class="la flaticon-user"></i></span>
+                          </td>
+                          <td>張人十</td>
+                          <td>－</td>
+                          <td>0912-345-678</td>
+                          <td>1243@gmail.com</td>
+                          <td>藏家</td>
+                          <td>中國，四川</td>
+                          <td class="text-right">
+                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
+                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="d-flex justify-content-between">
+                            <span><input type="checkbox" for="multi_operate"></span>
+                            <span class="icon-preview"><i class="la flaticon-user"></i></span>
+                          </td>
+                          <td>張人十</td>
+                          <td>TOP</td>
+                          <td>0912-345-678</td>
+                          <td>1243@gmail.com</td>
+                          <td>藏家、藝評</td>
+                          <td>中國，四川</td>
+                          <td class="text-right">
+                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
+                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="d-flex justify-content-between">
+                            <span><input type="checkbox" for="multi_operate"></span>
+                            <span class="icon-preview"><i class="la flaticon-user"></i></span>
+                          </td>
+                          <td>張人十</td>
+                          <td>VIP</td>
+                          <td>0912-345-678</td>
+                          <td>1243@gmail.com</td>
+                          <td>藏家、策展人</td>
+                          <td>中國，四川</td>
+                          <td class="text-right">
+                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
+                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="d-flex justify-content-between">
+                            <span><input type="checkbox" for="multi_operate"></span>
+                            <span class="icon-preview"><i class="la flaticon-user"></i></span>
+                          </td>
+                          <td>張人十</td>
+                          <td>VVIP</td>
+                          <td>0912-345-678</td>
+                          <td>1243@gmail.com</td>
+                          <td>藏家</td>
+                          <td>中國，四川</td>
+                          <td class="text-right">
+                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
+                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="d-flex justify-content-between">
+                            <span><input type="checkbox" for="multi_operate"></span>
+                            <span class="icon-preview"><i class="la flaticon-user"></i></span>
+                          </td>
+                          <td>張人十</td>
+                          <td>TOP</td>
+                          <td>0912-345-678</td>
+                          <td>1243@gmail.com</td>
+                          <td>藏家、策展人</td>
+                          <td>中國，四川</td>
+                          <td class="text-right">
+                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
+                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="d-flex justify-content-between">
+                            <span><input type="checkbox" for="multi_operate"></span>
+                            <span class="icon-preview"><i class="la flaticon-user"></i></span>
+                          </td>
+                          <td>張人十</td>
+                          <td>VVIP</td>
+                          <td>0912-345-678</td>
+                          <td>1243@gmail.com</td>
+                          <td>藝術家</td>
+                          <td>中國，四川</td>
+                          <td class="text-right">
+                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
+                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="d-flex justify-content-between">
+                            <span><input type="checkbox" for="multi_operate"></span>
+                            <span class="icon-preview"><i class="la flaticon-user"></i></span>
+                          </td>
+                          <td>張人十</td>
+                          <td>TOP</td>
+                          <td>0912-345-678</td>
+                          <td>1243@gmail.com</td>
+                          <td>藏家</td>
+                          <td>中國，四川</td>
+                          <td class="text-right">
+                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
+                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="d-flex justify-content-between">
+                            <span><input type="checkbox" for="multi_operate"></span>
+                            <span class="icon-preview"><i class="la flaticon-user"></i></span>
+                          </td>
+                          <td>張人十</td>
+                          <td>－</td>
+                          <td>0912-345-678</td>
+                          <td>1243@gmail.com</td>
+                          <td>策展人</td>
+                          <td>中國，四川</td>
+                          <td class="text-right">
+                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
+                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="d-flex justify-content-between">
+                            <span><input type="checkbox" for="multi_operate"></span>
+                            <span class="icon-preview"><i class="la flaticon-user"></i></span>
+                          </td>
+                          <td>張人十</td>
+                          <td>VIP</td>
+                          <td>0912-345-678</td>
+                          <td>1243@gmail.com</td>
+                          <td>藝術家</td>
+                          <td>中國，四川</td>
+                          <td class="text-right">
+                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
+                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="d-flex justify-content-between">
+                            <span><input type="checkbox" for="multi_operate"></span>
+                            <span class="icon-preview"><i class="la flaticon-user"></i></span>
+                          </td>
+                          <td>張人十</td>
+                          <td>－</td>
+                          <td>0912-345-678</td>
+                          <td>1243@gmail.com</td>
+                          <td>藝術家</td>
+                          <td>中國，四川</td>
+                          <td class="text-right">
+                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
+                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="d-flex justify-content-between">
+                            <span><input type="checkbox" for="multi_operate"></span>
+                            <span class="icon-preview"><i class="la flaticon-user"></i></span>
+                          </td>
+                          <td>張人十</td>
+                          <td>VIP</td>
+                          <td>0912-345-678</td>
+                          <td>1243@gmail.com</td>
+                          <td>藝術家</td>
+                          <td>中國，四川</td>
+                          <td class="text-right">
+                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
+                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="d-flex justify-content-between">
+                            <span><input type="checkbox" for="multi_operate"></span>
+                            <span class="icon-preview"><i class="la flaticon-user"></i></span>
+                          </td>
+                          <td>張人十</td>
+                          <td>－</td>
+                          <td>0912-345-678</td>
+                          <td>1243@gmail.com</td>
+                          <td>藝術家</td>
+                          <td>中國，四川</td>
+                          <td class="text-right">
+                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
+                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="#">
-                    <i class="la yk__sidebar-icon flaticon-home"></i>
-                  <p>首頁</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a data-toggle="collapse" href="#projects">
-                  <i class="la yk__sidebar-icon flaticon-calendar"></i>
-                  <p>專案管理</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="projects">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">總覽</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">歷史專案</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a data-toggle="collapse" href="#customer">
-                  <i class="la yk__sidebar-icon flaticon-profile"></i>
-                  <p>客戶管理</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="customer">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">總覽</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">藝術家</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">分類管理</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">統計分析</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a data-toggle="collapse" href="#inventory">
-                  <i class="la yk__sidebar-icon flaticon-box"></i>
-                  <p>庫存管理</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="inventory">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">總覽</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">其他庫存</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">作品形式管理</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">作品媒材管理</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">統計分析</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a data-toggle="collapse" href="#accountant">
-                  <i class="la yk__sidebar-icon flaticon-technology"></i>
-                  <p>會計管理</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="accountant">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">總覽(支出／收入)</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">訂購單</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">統計分析</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a href="#">
-                  <i class="la yk__sidebar-icon flaticon-laptop"></i>
-                  <p>客戶預覽</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#">
-                  <i class="la yk__sidebar-icon flaticon-graph"></i>
-                  <p>統計分析</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a data-toggle="collapse" href="#resource">
-                  <i class="la yk__sidebar-icon flaticon-idea"></i>
-                  <p>公共資源</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="resource">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">總覽</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">藝博會</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">獎補助</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">合約小幫手</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a data-toggle="collapse" href="#settings">
-                  <i class="la yk__sidebar-icon flaticon-settings"></i>
-                  <p>設定</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="settings">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">帳號設定</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span class="sub-item">系統設定</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a href="#">
-                  <i class="la yk__sidebar-icon flaticon-round"></i>
-                  <p>幫助</p>
-                </a>
-              </li> 
-            </ul>
           </div>
         </div>
       </div>
-      <!-- End Sidebar -->
+    </div>
+    <!-- End Datatable -->
 
-
+    <div class="yk__header fixed-bottom" style="z-index: 999;">
+      <div class="container-fluid">
+        <nav class="navbar navbar-light bg-white py-3">
+          <div>
+            <a href="#" class="btn btn-primary btn-round mr-2 px-4 py-2">新建</a>
+            <a href="#" class="btn btn-default btn-round btn-border mr-2 px-4 py-2">匯入</a>
+            <a href="#" class="btn btn-default btn-round btn-border mr-2 px-4 py-2">匯出</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+    
   </div>
 
 
@@ -299,5 +588,12 @@
 <!-- Azzara JS -->
 <script src="assets/js/ready.min.js"></script>
   
+<script>
+  $(document).ready(function () {
+    $('#basic-datatables').DataTable({
+    });
+  });
+</script>
+
 </body>
 </html>
