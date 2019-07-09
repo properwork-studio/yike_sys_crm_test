@@ -10,7 +10,6 @@
 	<script src="assets/js/plugin/webfont/webfont.min.js"></script>
 	<script>
 		WebFont.load({
-			google: {"families":["Open+Sans:300,400,600,700"]},
 			custom: {"families":["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands"], urls: ['../assets/css/fonts.css']},
 			active: function() {
 				sessionStorage.fonts = true;
@@ -281,8 +280,8 @@
           <div class="page-header">
             <h5 class="page-title">客戶管理｜總覽</h5>
           </div>
-          <div class="row">
-            <div class="col-md-12">
+          <div class="row d-flex align-items-stretch">
+            <div class="col-md-12" class="yk__data-table">
               <div class="card">
                 <div class="card-body">
                   <div class="table-responsive">
@@ -299,7 +298,7 @@
                           <th></th>
                         </tr>
                       </thead>
-                      <tbody>
+                      <tbody class="yk__table-row">
                         <tr>
                           <td class="d-flex justify-content-between">
                             <span><input type="checkbox" for="multi_operate"></span>
@@ -311,9 +310,9 @@
                           <td>1243@gmail.com</td>
                           <td>藏家</td>
                           <td>中國，四川</td>
-                          <td class="text-right">
-                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
-                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          <td class="text-right yk__table-row--control">
+                            <a href="#"><span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span></a>
+                            <a href="#"><span class="icon-preview"><i class="la flaticon-interface-5"></i></span></a>
                           </td>
                         </tr>
                         <tr>
@@ -327,9 +326,9 @@
                           <td>1243@gmail.com</td>
                           <td>藝評、策展人</td>
                           <td>中國，四川</td>
-                          <td class="text-right">
-                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
-                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          <td class="text-right yk__table-row--control">
+                            <a href="#"><span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span></a>
+                            <a href="#"><span class="icon-preview"><i class="la flaticon-interface-5"></i></span></a>
                           </td>
                         </tr>
                         <tr>
@@ -343,9 +342,9 @@
                           <td>1243@gmail.com</td>
                           <td>藝術家</td>
                           <td>中國，四川</td>
-                          <td class="text-right">
-                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
-                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          <td class="text-right yk__table-row--control">
+                            <a href="#"><span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span></a>
+                            <a href="#"><span class="icon-preview"><i class="la flaticon-interface-5"></i></span></a>
                           </td>
                         </tr>
                         <tr>
@@ -359,9 +358,9 @@
                           <td>1243@gmail.com</td>
                           <td>藏家</td>
                           <td>中國，四川</td>
-                          <td class="text-right">
-                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
-                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          <td class="text-right yk__table-row--control">
+                            <a href="#"><span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span></a>
+                            <a href="#"><span class="icon-preview"><i class="la flaticon-interface-5"></i></span></a>
                           </td>
                         </tr>
                         <tr>
@@ -375,9 +374,9 @@
                           <td>1243@gmail.com</td>
                           <td>藏家、藝評</td>
                           <td>中國，四川</td>
-                          <td class="text-right">
-                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
-                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          <td class="text-right yk__table-row--control">
+                            <a href="#"><span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span></a>
+                            <a href="#"><span class="icon-preview"><i class="la flaticon-interface-5"></i></span></a>
                           </td>
                         </tr>
                         <tr>
@@ -391,9 +390,9 @@
                           <td>1243@gmail.com</td>
                           <td>藏家、策展人</td>
                           <td>中國，四川</td>
-                          <td class="text-right">
-                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
-                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          <td class="text-right yk__table-row--control">
+                            <a href="#"><span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span></a>
+                            <a href="#"><span class="icon-preview"><i class="la flaticon-interface-5"></i></span></a>
                           </td>
                         </tr>
                         <tr>
@@ -407,9 +406,9 @@
                           <td>1243@gmail.com</td>
                           <td>藏家</td>
                           <td>中國，四川</td>
-                          <td class="text-right">
-                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
-                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          <td class="text-right yk__table-row--control">
+                            <a href="#"><span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span></a>
+                            <a href="#"><span class="icon-preview"><i class="la flaticon-interface-5"></i></span></a>
                           </td>
                         </tr>
                         <tr>
@@ -423,9 +422,9 @@
                           <td>1243@gmail.com</td>
                           <td>藏家、策展人</td>
                           <td>中國，四川</td>
-                          <td class="text-right">
-                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
-                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          <td class="text-right yk__table-row--control">
+                            <a href="#"><span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span></a>
+                            <a href="#"><span class="icon-preview"><i class="la flaticon-interface-5"></i></span></a>
                           </td>
                         </tr>
                         <tr>
@@ -439,9 +438,9 @@
                           <td>1243@gmail.com</td>
                           <td>藝術家</td>
                           <td>中國，四川</td>
-                          <td class="text-right">
-                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
-                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          <td class="text-right yk__table-row--control">
+                            <a href="#"><span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span></a>
+                            <a href="#"><span class="icon-preview"><i class="la flaticon-interface-5"></i></span></a>
                           </td>
                         </tr>
                         <tr>
@@ -455,9 +454,9 @@
                           <td>1243@gmail.com</td>
                           <td>藏家</td>
                           <td>中國，四川</td>
-                          <td class="text-right">
-                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
-                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          <td class="text-right yk__table-row--control">
+                            <a href="#"><span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span></a>
+                            <a href="#"><span class="icon-preview"><i class="la flaticon-interface-5"></i></span></a>
                           </td>
                         </tr>
                         <tr>
@@ -471,9 +470,9 @@
                           <td>1243@gmail.com</td>
                           <td>策展人</td>
                           <td>中國，四川</td>
-                          <td class="text-right">
-                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
-                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          <td class="text-right yk__table-row--control">
+                            <a href="#"><span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span></a>
+                            <a href="#"><span class="icon-preview"><i class="la flaticon-interface-5"></i></span></a>
                           </td>
                         </tr>
                         <tr>
@@ -487,9 +486,9 @@
                           <td>1243@gmail.com</td>
                           <td>藝術家</td>
                           <td>中國，四川</td>
-                          <td class="text-right">
-                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
-                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          <td class="text-right yk__table-row--control">
+                            <a href="#"><span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span></a>
+                            <a href="#"><span class="icon-preview"><i class="la flaticon-interface-5"></i></span></a>
                           </td>
                         </tr>
                         <tr>
@@ -503,9 +502,9 @@
                           <td>1243@gmail.com</td>
                           <td>藝術家</td>
                           <td>中國，四川</td>
-                          <td class="text-right">
-                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
-                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          <td class="text-right yk__table-row--control">
+                            <a href="#"><span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span></a>
+                            <a href="#"><span class="icon-preview"><i class="la flaticon-interface-5"></i></span></a>
                           </td>
                         </tr>
                         <tr>
@@ -519,9 +518,9 @@
                           <td>1243@gmail.com</td>
                           <td>藝術家</td>
                           <td>中國，四川</td>
-                          <td class="text-right">
-                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
-                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          <td class="text-right yk__table-row--control">
+                            <a href="#"><span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span></a>
+                            <a href="#"><span class="icon-preview"><i class="la flaticon-interface-5"></i></span></a>
                           </td>
                         </tr>
                         <tr>
@@ -535,9 +534,9 @@
                           <td>1243@gmail.com</td>
                           <td>藝術家</td>
                           <td>中國，四川</td>
-                          <td class="text-right">
-                            <span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span>
-                            <span class="icon-preview"><i class="la flaticon-interface-5"></i></span>
+                          <td class="text-right yk__table-row--control">
+                            <a href="#"><span class="icon-preview mr-3"><i class="la flaticon-pencil"></i></span></a>
+                            <a href="#"><span class="icon-preview"><i class="la flaticon-interface-5"></i></span></a>
                           </td>
                         </tr>
                       </tbody>
@@ -549,10 +548,115 @@
           </div>
         </div>
       </div>
+
+      <div class="yk__data-preview--bg d-none"></div>
+
+      <div class="yk__data-preview w-50 d-none">
+        <div class="card">
+          <div class="card-header d-flex justify-content-between">
+            <h5 class="mb-0">Data Preview</h5>
+            <span class="yk__data-preview--close">X</span>
+          </div>
+          <div class="card-body p-4">
+            <div class="yk_data-preview--image w-100 mb-4">
+              <img src="https://fakeimg.pl/250x150/">
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-3">
+                <p>藏家級別</p>
+              </div>
+              <div class="col-md-9">
+                <p>TOP</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <p>姓名</p>
+              </div>
+              <div class="col-md-9">
+                <p>張仁十</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <p>分類</p>
+              </div>
+              <div class="col-md-9">
+                <p>藏家、藝術家</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <p>生日</p>
+              </div>
+              <div class="col-md-9">
+                <p>1960.03.31</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <p>所在地</p>
+              </div>
+              <div class="col-md-9">
+                <p>中國，四川</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <p>聯絡電話</p>
+              </div>
+              <div class="col-md-9">
+                <p>0912-345-678</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <p>地址</p>
+              </div>
+              <div class="col-md-9">
+                <p>四川省成都市市府一路3號</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <p>E-mail</p>
+              </div>
+              <div class="col-md-9">
+                <p>sample@sample.com</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <p>官網</p>
+              </div>
+              <div class="col-md-9">
+                <p>–</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-3">
+                <p>備註</p>
+              </div>
+              <div class="col-md-9">
+                <p>很喜歡大銘的作品，但還在猶豫</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="card-footer d-flex justify-content-end">
+            <a href="#" class="btn btn-default btn-round btn-border mr-2">Delete</a>
+            <a href="#" class="btn btn-primary btn-round py-2 px-4">Edit</a>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- End Datatable -->
 
-    <div class="yk__header fixed-bottom" style="z-index: 999;">
+    
+
+    <div class="yk__header fixed-bottom" style="z-index: 998;">
       <div class="container-fluid">
         <nav class="navbar navbar-light bg-white py-3">
           <div>
@@ -594,6 +698,8 @@
     });
   });
 </script>
+
+<script src="./js/script.js"></script>
 
 </body>
 </html>

@@ -1,7 +1,9 @@
 
-*{
+*,.alert, .brand, .btn-simple, .h1, .h2, .h3, .h4, .h5, .h6, .navbar, .td-name, a, body, button.close, h1, h2, h3, h4, h5, h6, p, td{
   font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 300;
 }
+
 
 .yk{
 
@@ -12,6 +14,52 @@
 
   &__sidebar-icon{
     font-size: 16px;
+  }
+
+  &__table-row {
+    cursor: pointer;
+
+    &--control a {
+      color: #333;
+    }
+  }
+
+  &__data-preview{
+    position: absolute;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    p {
+      margin-bottom: 5px;
+    }
+
+    h5 {
+      line-height: 30px;
+    }
+
+    &--bg {
+      width: 100%;
+      height: 100%;
+      background-color: rgba($color: #000000, $alpha: 0.6);
+      z-index: 999;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    &--close {
+      width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 28px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    display: block;
+    font-size: 15px;
+    cursor: pointer;
+    }
   }
 
 }

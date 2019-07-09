@@ -1,5 +1,6 @@
-* {
-  font-family: 'Noto Sans TC', sans-serif; }
+*, .alert, .brand, .btn-simple, .h1, .h2, .h3, .h4, .h5, .h6, .navbar, .td-name, a, body, button.close, h1, h2, h3, h4, h5, h6, p, td {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 300; }
 
 .yk__header {
   box-shadow: 0 0px 8.5px 5px rgba(0, 0, 0, 0.05);
@@ -7,3 +8,37 @@
 
 .yk__sidebar-icon {
   font-size: 16px; }
+
+.yk__table-row {
+  cursor: pointer; }
+  .yk__table-row--control a {
+    color: #333; }
+
+.yk__data-preview {
+  position: absolute;
+  z-index: 9999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .yk__data-preview p {
+    margin-bottom: 5px; }
+  .yk__data-preview h5 {
+    line-height: 30px; }
+  .yk__data-preview--bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .yk__data-preview--close {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 28px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    display: block;
+    font-size: 15px;
+    cursor: pointer; }
